@@ -4,7 +4,7 @@ xrandr --auto --output HDMI1 --size 1920x1080  #设置分辨率，接在上面�
 /bin/zsh ~/scripts/dwm-status.sh &
 /bin/zsh ~/scripts/wp-change.sh &
 #picom -o 0.95 -i 0.88 --detect-rounded-corners --vsync --blur-background-fixed -f -D 5 -c -b
-picom --vsync="false" -b
+compton -b
 #/bin/bash ~/scripts/tap-to-click.sh &
 #/bin/bash ~/scripts/inverse-scroll.sh &
 /bin/zsh ~/scripts/setxmodmap-qwerty.sh &
