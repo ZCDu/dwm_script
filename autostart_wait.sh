@@ -2,5 +2,6 @@
 
 sleep 10
 #xmodmap ~/.Xmodmap &
-fcitx &
+fcitx5 &
+sh -c "exec ~/.nutstore/dist/bin/nutstore-pydaemon.py" &
 
